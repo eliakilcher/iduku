@@ -149,7 +149,7 @@ footer a i.fa-snapchat-ghost:hover { color: #ffe485; }
 footer a i.fa-twitter:hover { color: #84b3ff; }
 footer a i.fa-facebook-f:hover { color: #4c8ef7; }
 footer a i.fa-instagram:hover {	color: #ff84f0; }
-footer input[type=text] {
+footer input[type=email] {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     border: 1px solid #223166;
@@ -161,7 +161,7 @@ footer input[type=text] {
     width: calc(100% - 58px);
     margin-right: 10px;
 }
-footer input[type=text]:focus {
+footer input[type=email]:focus {
     outline: none;
     background-color: #223166;
 }
