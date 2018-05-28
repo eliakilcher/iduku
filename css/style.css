@@ -58,6 +58,10 @@ span.bold {
     width: 33.3333%;
     float: left;
 }
+.col-66 {
+    width: 66%;
+    float: left;
+}
 .col-50 {
     width: 50%;
     float: left;
@@ -134,14 +138,14 @@ main h1, main h2 {
 main p {
     margin: 10px 0;
 }
-main .col-33:nth-child(1) {
+main .col-33-links {
     padding-right: 13.333px;
 }
-main .col-33:nth-child(2) {
+main .col-33-mitte {
     padding-right: 6.667px;
     padding-left: 6.667px;
 }
-main .col-33:nth-child(3) {
+main .col-33-rechts {
     padding-left: 13.333px;
 }
 /**** FOOTER ****/
