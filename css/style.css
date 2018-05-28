@@ -41,6 +41,9 @@ h3 {
 span.bold {
     font-weight: 600;
 }
+span.txt-right {
+    float: right;
+}
 
 /**** ROW, WRAPPER, COL ****/
 .wrapper {
@@ -106,7 +109,7 @@ nav {
     background-color: #fafafa;
     padding-top: 10px;
     position: sticky;
-    top: 63.4px;
+    top: 96.73px;
     height: calc(100vh - 60px);
     z-index: 1;
 }
@@ -154,6 +157,26 @@ main .col-66-links {
 main .col-66-33-rechts {
     padding-left: 10px;
 }
+/**** PRODUKTE ****/
+article {
+    line-height: 1.1em;
+}
+article img {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #eee;
+}
+article p.price {
+    color: #db344a;
+    font-style: italic;
+}
+article p.sale {
+    color: #ffcd1c;
+}
+article p {
+    line-height: .9em;
+}
+
 /**** FOOTER ****/
 footer {
     background-color: #172144;
