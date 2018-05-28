@@ -187,6 +187,20 @@ article p {
     line-height: .9em;
 }
 
+/**** REZENSIONEN ****/
+div.rating i {
+    color: #ffcd1c;
+    padding-bottom: 15px;
+}
+div.rating {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+}
+div.rating:nth-child(x) {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
 /**** TEAM ****/
 main.team .col-75 {
     padding-left: 20px;
