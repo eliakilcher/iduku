@@ -58,16 +58,24 @@ span.txt-right {
     display: table;
     content: "";
 }
+.col-25 {
+    width: 25%;
+    float: left;
+}
 .col-33 {
     width: 33.3333%;
+    float: left;
+}
+.col-50 {
+    width: 50%;
     float: left;
 }
 .col-66 {
     width: 66%;
     float: left;
 }
-.col-50 {
-    width: 50%;
+.col-75 {
+    width: 75%;
     float: left;
 }
 
@@ -179,6 +187,14 @@ article p {
     line-height: .9em;
 }
 
+/**** TEAM ****/
+main .team .col-75 {
+    padding-left: 20px;
+}
+main .team .col-75 h2 {
+    margin-top: -10px;
+}
+
 /**** KONTAKT ****/
 main form.kontakt p {
     margin-bottom: 0px;
@@ -193,10 +209,14 @@ main form.kontakt button {
     font-size: 1em;
     font-weight: 600;
     margin-top: 15px;
+    width: 100%;
+    border: 1px solid #172144;
 }
 main form.kontakt button:hover {
-    background-color: #223166;
+    background-color: #fff;
     cursor: pointer;
+    color: #fff;
+    background-color: #223166;
 }
 main form.kontakt input[type=text], main form.kontakt input[type=email],main form.kontakt textarea {
     width: 100%;
