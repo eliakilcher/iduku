@@ -194,7 +194,7 @@ footer ::placeholder {
     opacity: .25;
 }
 footer p.copyright {
-    padding-top: 120px;
+    padding-top: 20px;
     font-size: .8em;
     opacity: 0.1;
 } 
