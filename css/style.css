@@ -184,6 +184,20 @@ main form.kontakt p {
     margin-bottom: 0px;
     font-weight: 600;
 }
+main form.kontakt button {
+    padding: 10px;
+    outline: 0;
+    background-color: #172144;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+    margin-top: 15px;
+}
+main form.kontakt button:hover {
+    background-color: #223166;
+    cursor: pointer;
+}
 main form.kontakt input[type=text], main form.kontakt input[type=email],main form.kontakt textarea {
     width: 100%;
     font-family: 'Open Sans', sans-serif;
@@ -202,7 +216,7 @@ main form.kontakt textarea {
     max-height: 200px;
     min-height: 200px;
 }
-main form.kontakt input[type=text]:focus, main form.kontakt input[type=email]:focus {
+main form.kontakt input[type=text]:focus, main form.kontakt input[type=email]:focus, main form.kontakt textarea:focus {
     background-color: #fafafa;
 }
 
