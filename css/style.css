@@ -148,6 +148,12 @@ main .col-33-mitte {
 main .col-33-rechts {
     padding-left: 13.333px;
 }
+main .col-66-links {
+    padding-right: 10px;
+}
+main .col-66-33-rechts {
+    padding-left: 10px;
+}
 /**** FOOTER ****/
 footer {
     background-color: #172144;
