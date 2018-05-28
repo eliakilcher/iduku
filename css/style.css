@@ -71,6 +71,7 @@ header {
     top: 0;
     border-top: 10px solid #172144;
     z-index: 2;
+    box-shadow: 0px -12px 20px rgba(0,0,0,.5);
 }
 #logo {
     width: 250px;
@@ -148,7 +149,7 @@ footer {
     background-color: #172144;
     color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0 0 20px;
 }
 footer .col-33 {
     padding: 20px;
