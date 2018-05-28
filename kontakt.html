@@ -57,9 +57,26 @@
     <!-- MAIN -->
         <main>
             <h1>Kontakt</h1>
-            <h3>Hast du Probleme bei der Bestellung?</h3>
-            <h3>Funktioniert etwas nicht?</h3>
-            <h3>Hast du sonst eine Frage?</h3>
+            <form class="kontakt" name="kontakt" method="POST" action="kontakt.html" data-netlify="true">
+                <div class="row">  
+                    <div class="col-50">
+                        <p>Vorname</p>
+                            <input type="text" name="vorname">
+                    </div>
+                    <div class="col-50">
+                        <p>Name</p>
+                            <input type="text" name="name">
+                    </div>
+                </div>
+                <div class="row">  
+                    <p>E-Mail</p>
+                        <input type="email" name="email">
+                </div>
+                <div class="row">  
+                    <p>Nachricht</p>
+                        <textarea name="email"></textarea>
+                </div>
+            </form>
         </main>      
     <!-- ENDE ROW-->    
         </div>

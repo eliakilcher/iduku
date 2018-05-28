@@ -158,6 +158,7 @@ main .col-66-links {
 main .col-66-33-rechts {
     padding-left: 10px;
 }
+
 /**** PRODUKTE ****/
 article {
     line-height: 1.1em;
@@ -176,6 +177,40 @@ article p.sale {
 }
 article p {
     line-height: .9em;
+}
+
+/**** KONTAKT ****/
+main form.kontakt p {
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+main form.kontakt input[type=text], main form.kontakt input[type=email],main form.kontakt textarea {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 10px;
+    font-size: 1em;
+    color: #172144;
+    outline: none;
+    border: 1px solid #eaeaea;
+    transition: .3s ease-in-out;
+}
+main form.kontakt textarea {
+    transition: 0s;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+}
+main form.kontakt input[type=text]:focus, main form.kontakt input[type=email]:focus {
+    background-color: #fafafa;
+}
+
+form.kontakt .col-50:nth-child(1) {
+    padding-right: 10px;
+}
+form.kontakt .col-50:nth-child(2) {
+    padding-left: 10px;
 }
 
 /**** FOOTER ****/
