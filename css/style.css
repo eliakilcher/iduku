@@ -66,6 +66,7 @@ header {
     position: sticky;
     top: 0;
     border-top: 10px solid #172144;
+    z-index: 2;
 }
 #logo {
     width: 250px;
@@ -95,9 +96,10 @@ nav {
     float: left;
     background-color: #fafafa;
     padding-top: 10px;
-    height: 100%;
-    margin-left: 1px;
-    margin-right: -1px;
+    position: sticky;
+    top: 96.3px;
+    height: calc(100vh - 95px);
+    z-index: 1;
 }
 .active {
     font-style: italic;
@@ -191,3 +193,8 @@ footer ::placeholder {
     color: #fff;
     opacity: .25;
 }
+footer p.copyright {
+    padding-top: 120px;
+    font-size: .8em;
+    opacity: 0.1;
+} 
