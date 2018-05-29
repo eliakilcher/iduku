@@ -431,7 +431,6 @@ footer p.copyright {
         width: calc(100% - 1px);
         position: sticky;
         top: 0;
-        border-top: 10px solid #172144;
         border-bottom: 1px solid #ddd;
         width: 100%;
         box-shadow: 0px -9px 20px rgba(0,0,0,.5);
