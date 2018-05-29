@@ -124,8 +124,11 @@ nav {
     height: calc(100vh - 60px);
     z-index: 1;
 }
-.active {
+li.active {
     font-style: italic;
+}
+li.active ul {
+    font-style: normal;
 }
 nav li {
     padding: 10px 20px;
