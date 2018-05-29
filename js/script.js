@@ -1,3 +1,20 @@
+$('a.burger').click(function(event) {
+     $('ul.navi').toggleClass('nav-block');
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ////$('a.burger').click(function(event) {
 ////    $('a.burger').toggleClass('burger-cross');
 ////    $('div.sidebar').toggleClass('sidebar-full');

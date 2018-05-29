@@ -115,7 +115,7 @@ div.slider {
 nav {
     width: 20%;
     float: left;
-    background-color: #fafafa;
+    background-color: #f5f5f5;
     padding-top: 10px;
     position: sticky;
     top: 96.73px;
@@ -143,6 +143,28 @@ nav li ul li {
 }
 nav li ul li:nth-child(1) {
     margin-top: 10px;
+}
+nav ul.nav-block, nav ul.nav-block ul {
+    display: block;
+}
+
+/**** BURGER ****/
+a.burger {
+    display: none;
+    height: 30px;
+    width: 30px;
+    margin-top: 12px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+a.burger span {
+    width: 100%;
+    display: block;
+    border: 1px solid #172144;
+    margin-bottom: 5px;
+}
+a.burger:hover {
+    cursor: pointer;
 }
 
 /**** MAIN ****/
@@ -397,10 +419,6 @@ footer p.copyright {
         width: 150px;
         margin-left: calc(50% - 75px);
     }
-    /**** MAIN ****/
-    main {
-        width: 100%;  
-    }    
     /**** NAVIGATION ****/
     nav {
         width: 100%;
@@ -408,7 +426,21 @@ footer p.copyright {
         position: relative; 
         top: 0;
         width: calc(100% - 1px);
+        position: sticky;
+        top: 63px;
     }
+    
+    nav ul {
+        display: none;
+    }
+    /**** BURGER ****/
+    a.burger {
+        display: block;
+    }
+    /**** MAIN ****/
+    main {
+        width: 100%;  
+    }    
     /**** FOOTER ****/
     footer {
         padding: 20px;
