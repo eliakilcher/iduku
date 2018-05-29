@@ -145,7 +145,7 @@ main {
 main h1, main h2 {
     padding-bottom: 10px;
     margin-bottom: 20px;
-    border-bottom: 1px solid #fafafa;
+    border-bottom: 1px solid #eee;
 }
 main p {
     margin: 10px 0;
@@ -196,9 +196,21 @@ div.rating {
     border-bottom: 1px solid #eee;
     margin-bottom: 20px;
 }
-div.rating:nth-child(x) {
-    border-bottom: none;
-    margin-bottom: 0;
+div.bewerten {
+    display: inline;
+    padding: 0 10px;
+}
+div.bewerten:nth-child(odd) {
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+div.bewerten i {
+    padding-top: 5px;
+    color: #172144;
+}
+div.bewerten:hover i{
+    color: #ffcd1c;
+    cursor: pointer;
 }
 
 /**** TEAM ****/
@@ -222,12 +234,12 @@ main.team .row:nth-child(3) {
     padding-bottom: 0;
 }
 
-/**** KONTAKT ****/
-main form.kontakt p {
+/**** FORMULAR ****/
+main form.formular p {
     margin-bottom: 0px;
     font-weight: 600;
 }
-main form.kontakt button {
+main form.formular button {
     padding: 10px;
     outline: 0;
     background-color: #172144;
@@ -240,13 +252,13 @@ main form.kontakt button {
     width: 100%;
     border: 1px solid #172144;
 }
-main form.kontakt button:hover {
+main form.formular button:hover {
     background-color: #fff;
     cursor: pointer;
     color: #fff;
     background-color: #223166;
 }
-main form.kontakt input[type=text], main form.kontakt input[type=email],main form.kontakt textarea {
+main form.formular input[type=text], main form.formular input[type=email],main form.formular textarea {
     width: 100%;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -257,21 +269,21 @@ main form.kontakt input[type=text], main form.kontakt input[type=email],main for
     border: 1px solid #eaeaea;
     transition: .3s ease-in-out;
 }
-main form.kontakt textarea {
+main form.formular textarea {
     transition: 0s;
     max-width: 100%;
     min-width: 100%;
     max-height: 200px;
     min-height: 200px;
 }
-main form.kontakt input[type=text]:focus, main form.kontakt input[type=email]:focus, main form.kontakt textarea:focus {
+main form.formular input[type=text]:focus, main form.formular input[type=email]:focus, main form.formular textarea:focus {
     background-color: #fafafa;
 }
 
-form.kontakt .col-50:nth-child(1) {
+form.formular .col-50:nth-child(1) {
     padding-right: 10px;
 }
-form.kontakt .col-50:nth-child(2) {
+form.formular .col-50:nth-child(2) {
     padding-left: 10px;
 }
 
@@ -400,4 +412,10 @@ footer p.copyright {
     }
     .col-75 {
         padding-left: 0 !important;
+    }
+    /**** REZENSIONEN ****/
+    div.bewerten {
+        display: block;
+        border: none !important;
+        padding: 0;
     }
