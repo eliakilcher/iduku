@@ -129,6 +129,12 @@ nav li {
     padding: 10px 20px;
     font-weight: 600;
 }
+nav li a {
+    display: block;
+}
+nav ul>li a:hover {
+    text-decoration: underline;
+}
 nav li ul li {
     font-weight: 400;
 }
