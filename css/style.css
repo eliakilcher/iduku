@@ -453,6 +453,9 @@ footer p.copyright {
     nav ul {
         display: none;
     }
+    nav ul>li a {
+        padding: 15px 0;
+    }
     /**** BURGER ****/
     a.burger {
         display: block;
