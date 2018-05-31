@@ -303,7 +303,7 @@ main form.formular button:hover {
     color: #fff;
     background-color: #223166;
 }
-main form.formular input[type=text], main form.formular input[type=email],main form.formular textarea {
+main form.formular input[type=text], main form.formular input[type=email],main form.formular textarea, select {
     width: 100%;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -313,6 +313,12 @@ main form.formular input[type=text], main form.formular input[type=email],main f
     outline: none;
     border: 1px solid #eaeaea;
     transition: .3s ease-in-out;
+}
+select {
+    background-color: #fafafa;
+}
+select:focus {
+    background-color: #f5f5f5;
 }
 main form.formular textarea {
     transition: 0s;
