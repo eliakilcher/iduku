@@ -314,6 +314,9 @@ main form.formular input[type=text], main form.formular input[type=email],main f
     border: 1px solid #eaeaea;
     transition: .3s ease-in-out;
 }
+main ::placeholder {
+    color: #ddd;
+}
 select {
     background-color: #fafafa;
 }
